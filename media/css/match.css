@@ -1,0 +1,115 @@
+/* Card match */
+
+.card{
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+.show_nav {
+  min-height: 60px;
+  max-height: 100%;
+}
+
+.show_total {
+  max-height: 500px;
+  overflow: auto;
+}
+
+.show_match {
+  width: 100%;
+  min-height: 60px;
+  max-height: 100px;
+  margin-right: 2%;
+  margin-bottom: 15px;
+  border-left: 3px solid #ebbf31;
+  padding: 0px 10px;
+  background: rgb(251, 242, 213);
+}
+
+.show_foto {
+ margin-top: auto;
+ margin-bottom: auto;
+ width: 40px;
+ height: 40px;
+}
+
+.show_nome {
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 150px;
+}
+
+.show_email {
+ margin-top: auto;
+ margin-bottom: auto;
+ min-width: 200px;
+ max-width: 250px;
+}
+
+.show_celular {
+ margin-top: auto;
+ margin-bottom: auto;
+ width: 143px;
+}
+
+.show_botoes {
+  margin: auto 10px auto auto;
+  width: 90px;
+}
+
+.fotinho {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  border: 2px solid #ebbf31;
+}
+
+.btn_desfazer {
+ width: 40px;
+ height: 40px;
+ border: none;
+ padding: 0px;
+ float: right;
+ background-color: rgb(251, 242, 213);
+}
+
+.btn_ver {
+ width: 40px;
+ height: 40px;
+ border: none;
+ padding: 0px;
+ float: left;
+ background-color: rgb(251, 242, 213);
+}
+
+@media (max-width: 900px) {
+
+  .show_celular {
+    display: none;
+  }
+
+  .show_email {
+    display: none;
+  }
+
+  .show_nome {
+    max-width: 150px;
+  }
+
+}
+
+
+
+#foto {
+  border-radius: 100%;
+  width: 300px;
+  height: 300px;
+}
+
+
+#jp {
+  background-color:#ebbf31;
+  border-radius: 2px;
+}
+
