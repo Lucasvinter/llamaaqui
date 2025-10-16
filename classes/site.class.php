@@ -9,10 +9,10 @@ class Site {
 	// CONST PASS = "";
 	// CONST DB   = "llamaaqu_master";
 
-	CONST HOST = "mysql873.umbler.com:41890";
-	CONST USER = "lucas1";
-	CONST PASS = "lucas88006949";
-	CONST DB   = "llamaaqu_master";
+	CONST HOST = "187.85.164.152:3306";
+	CONST USER = "vintersr_Lucas";
+	CONST PASS = "Lucas88006949";
+	CONST DB   = "vintersr_llamaaqu_master";
 
 
 	public $con;
